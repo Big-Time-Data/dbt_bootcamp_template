@@ -55,12 +55,13 @@ bigtimedata: #this needs to match your profile in your project.yml
 The default place to put this file is in `~/.dbt/profiles.yml`
 
 Run the following commands in terminal
-1. `vi ~/.dbt/profiles.yml`
-2. `i`
-3. Paste your profile.yml from above
-4. `esc`
-5. `:wq`
-6. `enter`
+1. `touch .dbt/profiles.yml`
+2. `vi ~/.dbt/profiles.yml`
+3. `i`
+4. Paste your profile.yml from above
+5. `esc`
+6. `:wq`
+7. `enter`
 
 Set the DBT_PROFILE_PATH env var
 ```sh
